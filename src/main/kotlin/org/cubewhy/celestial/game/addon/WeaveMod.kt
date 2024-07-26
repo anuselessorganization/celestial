@@ -80,7 +80,7 @@ class WeaveMod(val file: File) : BaseAddon() {
 
 
         fun checkUpdate(): Boolean {
-            log.info("Updating Weave Loader (no you won't)")
+            log.info("Updating Weave Loader (no you won't bitch)")
             return true
         }
     }
