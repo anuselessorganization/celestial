@@ -80,11 +80,8 @@ class WeaveMod(val file: File) : BaseAddon() {
 
 
         fun checkUpdate(): Boolean {
-            log.info("Updating Weave Loader")
-            return downloadLoader(
-                "Weave-MC/Weave-Loader",
-                config.addon.weave.installationDir.toFile()
-            )
+            log.info("Updating Weave Loader (no you won't)")
+            return true
         }
     }
 }
